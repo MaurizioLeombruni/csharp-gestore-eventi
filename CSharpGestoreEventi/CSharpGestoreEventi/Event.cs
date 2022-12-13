@@ -38,7 +38,7 @@ namespace CSharpGestoreEventi
 
         public DateTime GetEventDate()
         {
-            return this.eventDate;
+            return this.eventDate.Date;
         }
 
         public int GetEventCapacity()
@@ -119,7 +119,7 @@ namespace CSharpGestoreEventi
             else
             {
                 this.eventPreorders += preorders;
-                Console.WriteLine("Aggiunti n." + preorders + " posti. Il totale è: " + this.eventPreorders + " posti prenotati.");
+                Console.WriteLine("Aggiunti n." + preorders + " posti. Il totale è: " + this.eventPreorders + " posti prenotati. Rimasti: " + (this.eventCapacity - this.eventPreorders) + " posti.");
             }
         }
 
@@ -140,6 +140,12 @@ namespace CSharpGestoreEventi
             {
                 this.eventPreorders -= preorders;
             }
+        }
+
+        public void PrintPreorders()
+        {
+            Console.WriteLine("Numero di posti prenotati: " + this.eventPreorders);
+            Console.WriteLine("Numero di posti disponibili: " + (this.eventCapacity - this.eventPreorders));
         }
 
         public override string ToString()
