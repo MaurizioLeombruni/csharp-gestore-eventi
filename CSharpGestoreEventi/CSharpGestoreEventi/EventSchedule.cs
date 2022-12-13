@@ -57,10 +57,40 @@ namespace CSharpGestoreEventi
                         validEvents.Add(element);
                     }
                 }
+
+                return validEvents;
             }
             catch(Exception e)
             {
                 throw new ArgumentException(e.Message, nameof(date));
+            }
+        }
+
+        public static void PrintAllEventsInSchedule(List<Event> schedule)
+        {
+            foreach(Event element in schedule)
+            {
+                Console.WriteLine(element.ToString());
+            }
+        }
+
+        public void PrintEventCount()
+        {
+            Console.WriteLine("Il numero di eventi attualmente registrati è: " + scheduleEvents.Count);
+        }
+
+        public void ClearSchedule()
+        {
+            scheduleEvents.Clear();
+            Console.WriteLine("La lista degli eventi è stata svuotata.");
+        }
+
+        public void PrintScheduleDetails()
+        {
+            Console.WriteLine("----" + GetScheduleTitle() + "----");
+            foreach(Event element in scheduleEvents)
+            {
+                Console.WriteLine(element.ToString());
             }
         }
     }
