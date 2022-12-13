@@ -8,10 +8,10 @@ namespace CSharpGestoreEventi
 {
     public class Event
     {
-        private string? eventTitle;
-        private DateTime eventDate;
-        private int eventCapacity;
-        private int eventPreorders;
+        protected string? eventTitle;
+        protected DateTime eventDate;
+        protected int eventCapacity;
+        protected int eventPreorders;
 
         public Event(string eventTitle, string eventDate, int eventCapacity)
         {

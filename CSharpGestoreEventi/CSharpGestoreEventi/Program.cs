@@ -121,6 +121,10 @@ while(counter < inputEventCount)
     }
 }
 
+EventConference conferenceTest = new("Conferenza sulle conferenze", "27/03/2023", 200, "Mario Rossi", 15.00);
+
+userSchedule.AddEventToSchedule(conferenceTest);
+
 userSchedule.PrintEventCount();
 userSchedule.PrintScheduleDetails();
 
