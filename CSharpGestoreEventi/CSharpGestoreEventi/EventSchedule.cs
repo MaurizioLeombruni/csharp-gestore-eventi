@@ -43,6 +43,8 @@ namespace CSharpGestoreEventi
             scheduleEvents.Add(e);
         }
 
+        //Presa una data in forma stringa e parsata, viene utilizzata per cercare eventi che hanno la stessa data.
+        //Gli eventi che rispondono a questo criterio vengono messi in una lista a parte, che viene poi restituita in output.
         public List<Event> GetEventsByDate(string date)
         {
             try

@@ -66,6 +66,7 @@ namespace CSharpGestoreEventi
             }
         }
 
+        //La data viene settata parsandola dalla stringa chiesta in ingresso. Se è una data antecedente alla data odierna, lancia un'eccezione.
         public void SetEventDate(string date)
         {
             DateTime currentDate = DateTime.Now;
@@ -123,6 +124,7 @@ namespace CSharpGestoreEventi
             }
         }
 
+        //Diminuisce il numero di posti prenotati. Se il numero inserito è più grande del numero di posti prenotati, si limita ad azzerare le prenotazioni.
         public void CancelPreorders(int preorders)
         {
             if(preorders <= 0)
@@ -148,6 +150,7 @@ namespace CSharpGestoreEventi
             Console.WriteLine("Numero di posti disponibili: " + (this.eventCapacity - this.eventPreorders));
         }
 
+        //Stampa data e titolo. La data viene stampata ignorando la componente dell'ora.
         public override string ToString()
         {
             string eventInfo = eventDate.ToShortDateString() + " - " + eventTitle;

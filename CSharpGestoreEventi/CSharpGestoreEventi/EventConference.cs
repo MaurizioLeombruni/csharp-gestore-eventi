@@ -42,6 +42,8 @@ namespace CSharpGestoreEventi
             }
         }
 
+        //Il prezzo viene settato con un double in ingresso. Il valore non può essere minore di zero, ma può essere uguale (conferenze gratis, yay!).
+        //Se il valore è valido, viene settato arrotondandolo a 2 cifre decimali.
         public void SetConferencePrice(double conferencePrice)
         {
             if(conferencePrice < 0)
@@ -54,6 +56,8 @@ namespace CSharpGestoreEventi
             }
         }
 
+        //L'override restitusce un valore diverso da quello della classe padre Evento.
+        //Banalmente aggiunge alla stringa restituita il relatore della conferenza e il prezzo, arrotondato a 2 cifre (se ce n'è bisogno).
         public override string ToString()
         {
             string conferenceInfo = eventDate.ToShortDateString() + " - " + eventTitle + " - " + GetConferenceSpeaker() + " - "  + GetConferencePrice().ToString("N2") + " euro";
