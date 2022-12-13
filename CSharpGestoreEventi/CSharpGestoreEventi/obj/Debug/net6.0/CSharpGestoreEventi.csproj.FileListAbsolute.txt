@@ -1,0 +1,15 @@
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-gestore-eventi\CSharpGestoreEventi\CSharpGestoreEventi\bin\Debug\net6.0\CSharpGestoreEventi.exe
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-gestore-eventi\CSharpGestoreEventi\CSharpGestoreEventi\bin\Debug\net6.0\CSharpGestoreEventi.deps.json
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-gestore-eventi\CSharpGestoreEventi\CSharpGestoreEventi\bin\Debug\net6.0\CSharpGestoreEventi.runtimeconfig.json
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-gestore-eventi\CSharpGestoreEventi\CSharpGestoreEventi\bin\Debug\net6.0\CSharpGestoreEventi.dll
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-gestore-eventi\CSharpGestoreEventi\CSharpGestoreEventi\bin\Debug\net6.0\CSharpGestoreEventi.pdb
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-gestore-eventi\CSharpGestoreEventi\CSharpGestoreEventi\obj\Debug\net6.0\CSharpGestoreEventi.csproj.AssemblyReference.cache
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-gestore-eventi\CSharpGestoreEventi\CSharpGestoreEventi\obj\Debug\net6.0\CSharpGestoreEventi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-gestore-eventi\CSharpGestoreEventi\CSharpGestoreEventi\obj\Debug\net6.0\CSharpGestoreEventi.AssemblyInfoInputs.cache
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-gestore-eventi\CSharpGestoreEventi\CSharpGestoreEventi\obj\Debug\net6.0\CSharpGestoreEventi.AssemblyInfo.cs
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-gestore-eventi\CSharpGestoreEventi\CSharpGestoreEventi\obj\Debug\net6.0\CSharpGestoreEventi.csproj.CoreCompileInputs.cache
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-gestore-eventi\CSharpGestoreEventi\CSharpGestoreEventi\obj\Debug\net6.0\CSharpGestoreEventi.dll
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-gestore-eventi\CSharpGestoreEventi\CSharpGestoreEventi\obj\Debug\net6.0\refint\CSharpGestoreEventi.dll
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-gestore-eventi\CSharpGestoreEventi\CSharpGestoreEventi\obj\Debug\net6.0\CSharpGestoreEventi.pdb
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-gestore-eventi\CSharpGestoreEventi\CSharpGestoreEventi\obj\Debug\net6.0\CSharpGestoreEventi.genruntimeconfig.cache
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-gestore-eventi\CSharpGestoreEventi\CSharpGestoreEventi\obj\Debug\net6.0\ref\CSharpGestoreEventi.dll
