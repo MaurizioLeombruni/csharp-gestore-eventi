@@ -38,7 +38,7 @@ namespace CSharpGestoreEventi
 
         public DateTime GetEventDate()
         {
-            return this.eventDate.Date;
+            return this.eventDate;
         }
 
         public int GetEventCapacity()
@@ -150,7 +150,7 @@ namespace CSharpGestoreEventi
 
         public override string ToString()
         {
-            string eventInfo = eventDate + " - " + eventTitle;
+            string eventInfo = eventDate.ToShortDateString() + " - " + eventTitle;
 
             return eventInfo;
         }
